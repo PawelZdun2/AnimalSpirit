@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:PageBase xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:base="clr-namespace:AnimalSpirit.View.Base;assembly=AnimalSpirit"
+			 x:Class="AnimalSpirit.MainPage">
+
+    <StackLayout BackgroundColor="Green"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+        <Label Text="Animal Spirit" 
+		       VerticalOptions="Center" 
+		       HorizontalOptions="Center" />
+        <Button Text ="Logowanie"></Button>
+        <Button Text ="Rejestracja"></Button>
+    </StackLayout>
+
+</base:PageBase>
